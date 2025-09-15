@@ -3,7 +3,7 @@
  * @brief Entry point for the Arithmetic C++ project.
  *
  * This file provides a simple demonstration of arithmetic operations like 
- * addition using functions defined in arithmetic.cpp. It serves as the 
+ * addition and subtraction using functions defined in arithmetic.cpp. It serves as the 
  * driver code for testing functionality.
  * 
  * @author Ashvin Ambatwar
@@ -21,6 +21,7 @@ int main() {
     int a = 10, b = 5;
 
     std::cout << "Addition: " << add(a, b) << std::endl;
+    std::cout << "Subtraction: " << subtract(a, b) << std::endl;
 
     return 0;
 }
