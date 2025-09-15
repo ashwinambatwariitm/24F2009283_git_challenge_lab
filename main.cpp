@@ -2,9 +2,10 @@
  * @file main.cpp
  * @brief Entry point for the Arithmetic C++ project.
  *
- * This file provides a simple demonstration of arithmetic operations like 
- * addition and subtraction using functions defined in arithmetic.cpp. It serves as the 
- * driver code for testing functionality.
+ * This file provides a simple demonstration of arithmetic operations
+ * (addition, subtraction, multiplication, and division) using functions
+ * defined in arithmetic.cpp. It serves as the driver code for testing
+ * functionality.
  * 
  * @author Ashvin Ambatwar
  * @version 1.0
@@ -22,6 +23,8 @@ int main() {
 
     std::cout << "Addition: " << add(a, b) << std::endl;
     std::cout << "Subtraction: " << subtract(a, b) << std::endl;
+    std::cout << "Multiplication: " << multiply(a, b) << std::endl;
+    std::cout << "Division: " << divide(a, b) << std::endl;
 
     return 0;
 }

@@ -18,7 +18,8 @@
  * @brief Declaration of basic arithmetic functions.
  *
  * This header provides function declarations for performing
- * simple arithmetic operations: addition
+ * simple arithmetic operations:addition, subtraction,
+ * multiplication, and division.
  */
 
 /**
@@ -36,5 +37,22 @@ int add(int a, int b);
  * @return Result of a - b
  */
 int subtract(int a, int b);
+
+/**
+ * @brief Multiplies two integers.
+ * @param a First operand
+ * @param b Second operand
+ * @return Product of a and b
+ */
+int multiply(int a, int b);
+
+/**
+ * @brief Divides one integer by another.
+ * @param a Numerator
+ * @param b Denominator (must not be zero)
+ * @return Result of a / b
+ * @throws std::invalid_argument if b == 0
+ */
+double divide(int a, int b);
 
 #endif // ARITHMETIC_H
