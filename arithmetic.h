@@ -29,4 +29,12 @@
  */
 int add(int a, int b);
 
+/**
+ * @brief Subtracts one integer from another.
+ * @param a First operand
+ * @param b Second operand
+ * @return Result of a - b
+ */
+int subtract(int a, int b);
+
 #endif // ARITHMETIC_H
