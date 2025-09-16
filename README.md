@@ -13,16 +13,4 @@ A simple **C++ project** demonstrating basic arithmetic operations with **unit t
 
 ---
 
-## Project Structure
-24F2009283_git_challenge_lab/
-├── CMakeLists.txt # Build configuration
-├── src/
-│ ├── arithmetic.cpp # Implementation of arithmetic functions
-│ └── arithmetic.h # Function declarations
-├── main.cpp # Program entry point
-├── tests/
-│ ├── CMakeLists.txt # CMake config for tests
-│ └── test_arithmetic.cpp # Unit tests using CTest
-└── .github/
-└── workflows/
-└── main.yml # GitHub Actions workflow for CI/CD
+
