@@ -31,7 +31,8 @@ jobs:
       - name: Sanity Test
         run: |
           ./build/main > output.txt
-          grep -q "2 + 3 = 5" output.txt || (echo "Sanity check failed!" && exit 1)
-
+          cat output.txt
+          grep -q "Addition: 15" output.txt || (echo "Sanity check failed!" && exit 1)
+    
       - name: Mark Deployment Success
         run: echo "Deployment finished successfully to DEv"
