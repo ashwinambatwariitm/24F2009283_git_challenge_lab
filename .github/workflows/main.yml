@@ -35,4 +35,4 @@ jobs:
           grep -q "Addition: 15" output.txt || (echo "Sanity check failed!" && exit 1)
     
       - name: Mark Deployment Success
-        run: echo "Deployment finished successfully to DEv"
+        run: echo "Deployment finished successfully to Dev"
