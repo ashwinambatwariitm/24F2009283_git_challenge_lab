@@ -17,6 +17,7 @@
 
 
 int main() {
+    // This is a simple demonstration of the arithmetic functions.
     std::cout << "Arithmetic Project Started!" << std::endl;
 
     int a = 10, b = 5;
